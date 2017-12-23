@@ -8,8 +8,8 @@ To simulate a task management system with a priority queue.
 <br />Return the JSON representing the state of the queue (the list of job names, in priority order), after all enqueue and dequeue statements have been processed.
 •	Example input:<br />
 { “inList” : [ { “cmd” : “enqueue”, “name” : ”job1”, “pri” : 4 },
-<br />{ “cmd” : “enqueue”, “name” : ”job2”, “pri” : 3 },{ 
-<br />“cmd” : “dequeue” },
+<br />{ “cmd” : “enqueue”, “name” : ”job2”, “pri” : 3 },
+<br />{“cmd” : “dequeue” },
 <br />{ “cmd” : “enqueue”, “name” : ”job3”, “pri” : 0 },
 <br />{ “cmd” : “enqueue”, “name” : ”job4”, “pri” : 1 },
 <br />{ “cmd” : “dequeue” }] } 
